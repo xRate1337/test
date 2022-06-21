@@ -1,4 +1,19 @@
-     <profiles>
+    <!-- https://mvnrepository.com/artifact/org.cyclonedx/cyclonedx-maven-plugin -->
+<dependency>
+    <groupId>org.cyclonedx</groupId>
+    <artifactId>cyclonedx-maven-plugin</artifactId>
+    <version>2.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.pmckeown/dependency-track-maven-plugin -->
+<dependency>
+    <groupId>io.github.pmckeown</groupId>
+    <artifactId>dependency-track-maven-plugin</artifactId>
+    <version>1.1.3</version>
+</dependency>
+
+
+        <profiles>
           <profile>   
           <id>dtrack</id>               
             <build>
@@ -15,6 +30,20 @@
                 </goals>
             </execution>
         </executions>
+        <configuration>
+            <projectType>library</projectType>
+            <schemaVersion>1.4</schemaVersion>
+            <includeBomSerialNumber>true</includeBomSerialNumber>
+            <includeCompileScope>true</includeCompileScope>
+            <includeProvidedScope>true</includeProvidedScope>
+            <includeRuntimeScope>true</includeRuntimeScope>
+            <includeSystemScope>true</includeSystemScope>
+            <includeTestScope>true</includeTestScope>
+            <includeLicenseText>false</includeLicenseText>
+            <outputReactorProjects>true</outputReactorProjects>
+            <outputFormat>all</outputFormat>
+            <outputName>bom</outputName>
+        </configuration>
    </plugin>
             
             <plugin>
@@ -37,42 +66,4 @@
        </build>
        </profile>
        
-       <profile>
-    <id>dtrackpublisher</id>
-    <build>
-    <plugins>
-    <plugin>
-        <groupId>org.cyclonedx</groupId>
-        <artifactId>cyclonedx-maven-plugin</artifactId>
-        <version>2.7.0</version>
-        <executions>
-            <execution>
-                <goals>
-                    <goal>makeAggregateBom</goal>
-                </goals>
-            </execution>
-        </executions>
-   </plugin>
-   
-    <plugin>
-            <groupId>io.github.houssemba</groupId>
-            <artifactId>dependencytrack-mvn-publisher</artifactId>
-            <version>0.0.3</version>
-            <configuration>
-                <uri>http://localhost:8081/api/v1/bom</uri>
-                <apiKey>qVpZLhIGqMpupmhe4K5GTliqZV8yYZ23</apiKey>
-                <bomPath>target/bom.xml</bomPath>
-                <projectUuid>8ce1a502-5246-468e-ba58-463c7ffe6650</projectUuid>
-            </configuration>
-            <executions>
-            	<execution>
-            		<goals>
-            			<goal>publish</goal>
-            		</goals>
-            	</execution>
-            </executions>
-        </plugin> 
-       </plugins>
-       </build>
-       </profile>
 </profiles>
