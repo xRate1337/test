@@ -1,69 +1,2295 @@
-    <!-- https://mvnrepository.com/artifact/org.cyclonedx/cyclonedx-maven-plugin -->
-<dependency>
-    <groupId>org.cyclonedx</groupId>
-    <artifactId>cyclonedx-maven-plugin</artifactId>
-    <version>2.7.0</version>
-</dependency>
+PACKAGE NAME: 3s-codesys-ids-0x3
+PACKAGE VERSION: acos-rtu-8.11.0.2-113457
+RECIPE NAME: 3s-codesys-ids-0x3
+LICENSE: CLOSED
 
-<!-- https://mvnrepository.com/artifact/io.github.pmckeown/dependency-track-maven-plugin -->
-<dependency>
-    <groupId>io.github.pmckeown</groupId>
-    <artifactId>dependency-track-maven-plugin</artifactId>
-    <version>1.1.3</version>
-</dependency>
+PACKAGE NAME: 3s-codesys-ids-0x3-license
+PACKAGE VERSION: acos-rtu-8.11.0.2-113457
+RECIPE NAME: 3s-codesys-ids-0x3
+LICENSE: CLOSED
 
+PACKAGE NAME: acos-rtu-main
+PACKAGE VERSION: acos-rtu-8.11.0.2-113447
+RECIPE NAME: acos-rtu-main
+LICENSE: CLOSED
 
-        <profiles>
-          <profile>   
-          <id>dtrack</id>               
-            <build>
-            <plugins>
-            
-                <plugin>
-        <groupId>org.cyclonedx</groupId>
-        <artifactId>cyclonedx-maven-plugin</artifactId>
-        <version>2.7.0</version>
-        <executions>
-            <execution>
-                <goals>
-                    <goal>makeAggregateBom</goal>
-                </goals>
-            </execution>
-        </executions>
-        <configuration>
-            <projectType>library</projectType>
-            <schemaVersion>1.4</schemaVersion>
-            <includeBomSerialNumber>true</includeBomSerialNumber>
-            <includeCompileScope>true</includeCompileScope>
-            <includeProvidedScope>true</includeProvidedScope>
-            <includeRuntimeScope>true</includeRuntimeScope>
-            <includeSystemScope>true</includeSystemScope>
-            <includeTestScope>true</includeTestScope>
-            <includeLicenseText>false</includeLicenseText>
-            <outputReactorProjects>true</outputReactorProjects>
-            <outputFormat>all</outputFormat>
-            <outputName>bom</outputName>
-        </configuration>
-   </plugin>
-            
-            <plugin>
-            <groupId>io.github.pmckeown</groupId>
-            <artifactId>dependency-track-maven-plugin</artifactId>
-            <version>1.1.3</version>
-            <configuration>
-                <dependencyTrackBaseUrl>http://localhost:8081</dependencyTrackBaseUrl>
-                <apiKey>e01KDH8A5gyn0NmkPqHkrleSSLQShrLW</apiKey>
-            </configuration>
-                    <executions>
-            <execution>
-                <goals>
-                    <goal>upload-bom</goal>
-                </goals>
-            </execution>
-        </executions>
-            </plugin>
-            </plugins>
-       </build>
-       </profile>
-       
-</profiles>
+PACKAGE NAME: acos-web-api-administration
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-administration
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-administration-config
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-administration-config
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-administration-firmware
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-administration-firmware
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-core
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-core
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-diagnostic-acos-rtu-main
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-diagnostic-acos-rtu-main
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-diagnostic-device
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-diagnostic-device
+LICENSE: CLOSED
+
+PACKAGE NAME: acos-web-api-diagnostic-system
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos-web-api-diagnostic-system
+LICENSE: CLOSED
+
+PACKAGE NAME: acos7-web-data
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos7-web-data
+LICENSE: CLOSED
+
+PACKAGE NAME: acos7-web2-ui-dist
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos7-web2-ui-dist
+LICENSE: CLOSED
+
+PACKAGE NAME: acos7-web2-ui-redirect
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: acos7-web2-ui-redirect
+LICENSE: CLOSED
+
+PACKAGE NAME: base-files
+PACKAGE VERSION: 3.0.14
+RECIPE NAME: base-files
+LICENSE: GPLv2
+
+PACKAGE NAME: base-passwd
+PACKAGE VERSION: 3.5.29
+RECIPE NAME: base-passwd
+LICENSE: GPLv2
+
+PACKAGE NAME: bash
+PACKAGE VERSION: 5.0
+RECIPE NAME: bash
+LICENSE: GPLv3+
+
+PACKAGE NAME: boost
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-atomic
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-chrono
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-container
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-context
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-contract
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-coroutine
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-date-time
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-filesystem
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-graph
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-iostreams
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-log
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-math
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-program-options
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-random
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-regex
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-serialization
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-system
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-test
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-thread
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-timer
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: boost-wave
+PACKAGE VERSION: 1.72.0
+RECIPE NAME: boost
+LICENSE: BSL-1.0 & MIT & Python-2.0
+
+PACKAGE NAME: busybox
+PACKAGE VERSION: 1.31.1
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: busybox-udhcpc
+PACKAGE VERSION: 1.31.1
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: ca-certificates
+PACKAGE VERSION: 20210119
+RECIPE NAME: ca-certificates
+LICENSE: GPL-2.0+ & MPL-2.0
+
+PACKAGE NAME: can-utils
+PACKAGE VERSION: 2020.02.04
+RECIPE NAME: can-utils
+LICENSE: GPLv2 & BSD-3-Clause
+
+PACKAGE NAME: canopen-cmd
+PACKAGE VERSION: acos-rtu-8.11.0.2-113465
+RECIPE NAME: canopen-cmd
+LICENSE: CLOSED
+
+PACKAGE NAME: chronyc
+PACKAGE VERSION: 3.5
+RECIPE NAME: chrony
+LICENSE: GPLv2
+
+PACKAGE NAME: cm33-tool
+PACKAGE VERSION: acos-rtu-8.11.0.2-113467
+RECIPE NAME: cm33-tool
+LICENSE: CLOSED
+
+PACKAGE NAME: cmp-ids-pio-connector
+PACKAGE VERSION: acos-rtu-8.11.0.2-113469
+RECIPE NAME: cmp-ids-pio-connector
+LICENSE: CLOSED
+
+PACKAGE NAME: cmp-ids-system
+PACKAGE VERSION: acos-rtu-8.11.0.2-113469
+RECIPE NAME: cmp-ids-system
+LICENSE: CLOSED
+
+PACKAGE NAME: cmp-vivavis-persistence-mram
+PACKAGE VERSION: acos-rtu-8.11.0.2-113469
+RECIPE NAME: cmp-vivavis-persistence-mram
+LICENSE: CLOSED
+
+PACKAGE NAME: codesys-resources
+PACKAGE VERSION: acos-rtu-8.11.0.2-113469
+RECIPE NAME: codesys-resources
+LICENSE: CLOSED
+
+PACKAGE NAME: coreutils-date
+PACKAGE VERSION: 8.31
+RECIPE NAME: coreutils
+LICENSE: GPLv3+
+
+PACKAGE NAME: curl
+PACKAGE VERSION: 7.69.1
+RECIPE NAME: curl
+LICENSE: MIT
+
+PACKAGE NAME: dbus
+PACKAGE VERSION: 1.12.16
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPLv2+
+
+PACKAGE NAME: dbus-lib
+PACKAGE VERSION: 1.12.16
+RECIPE NAME: dbus
+LICENSE: AFL-2.1 | GPLv2+
+
+PACKAGE NAME: dnsmasq
+PACKAGE VERSION: 2.81
+RECIPE NAME: dnsmasq
+LICENSE: GPLv2 | GPLv3
+
+PACKAGE NAME: dpkg
+PACKAGE VERSION: 1.19.7
+RECIPE NAME: dpkg
+LICENSE: GPLv2.0+
+
+PACKAGE NAME: dpkg-start-stop
+PACKAGE VERSION: 1.19.7
+RECIPE NAME: dpkg
+LICENSE: GPLv2.0+
+
+PACKAGE NAME: dt-utils
+PACKAGE VERSION: v2019.01.0-26-g634317cc91202304c1477a6d738d7c7691b80419
+RECIPE NAME: dt-utils
+LICENSE: GPLv2
+
+PACKAGE NAME: dt-utils-barebox-state
+PACKAGE VERSION: v2019.01.0-26-g634317cc91202304c1477a6d738d7c7691b80419
+RECIPE NAME: dt-utils
+LICENSE: GPLv2
+
+PACKAGE NAME: duplicate
+PACKAGE VERSION: 1.1.1
+RECIPE NAME: duplicate
+LICENSE: Apachev2
+
+PACKAGE NAME: e2fsprogs-e2fsck
+PACKAGE VERSION: 1.45.4
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2
+
+PACKAGE NAME: esd-backend
+PACKAGE VERSION: acos-rtu-8.11.0.2-113458
+RECIPE NAME: esd-backend
+LICENSE: CLOSED
+
+PACKAGE NAME: expat
+PACKAGE VERSION: 2.2.9
+RECIPE NAME: expat
+LICENSE: MIT
+
+PACKAGE NAME: ffi
+PACKAGE VERSION: 1.11.1
+RECIPE NAME: ffi
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: gdbm
+PACKAGE VERSION: 1.18.1
+RECIPE NAME: gdbm
+LICENSE: GPLv3
+
+PACKAGE NAME: gdbm-compat
+PACKAGE VERSION: 1.18.1
+RECIPE NAME: gdbm
+LICENSE: GPLv3
+
+PACKAGE NAME: glib-2.0
+PACKAGE VERSION: 2.62.6
+RECIPE NAME: glib-2.0
+LICENSE: LGPLv2.1+ & BSD & PD
+
+PACKAGE NAME: glibc
+PACKAGE VERSION: 2.31+gitAUTOINC+f84949f1c4
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: gmp
+PACKAGE VERSION: 6.2.0
+RECIPE NAME: gmp
+LICENSE: GPLv2+ | LGPLv3+
+
+PACKAGE NAME: google-protobuf
+PACKAGE VERSION: 3.14.0
+RECIPE NAME: google-protobuf
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: htpdate
+PACKAGE VERSION: 1.2.2
+RECIPE NAME: htpdate
+LICENSE: GPL-2.0+
+
+PACKAGE NAME: i2c-tools
+PACKAGE VERSION: 4.1
+RECIPE NAME: i2c-tools
+LICENSE: GPLv2+
+
+PACKAGE NAME: ids-release-info
+PACKAGE VERSION: 1.0
+RECIPE NAME: ids-release-info
+LICENSE: CLOSED
+
+PACKAGE NAME: ids-tools
+PACKAGE VERSION: acos-rtu-8.11.0.2-113467
+RECIPE NAME: ids-tools
+LICENSE: CLOSED
+
+PACKAGE NAME: ids-users-ids-admin
+PACKAGE VERSION: acos-rtu-8.11.0.2-113462
+RECIPE NAME: ids-users
+LICENSE: CLOSED
+
+PACKAGE NAME: ids-users-ids-service
+PACKAGE VERSION: acos-rtu-8.11.0.2-113462
+RECIPE NAME: ids-users
+LICENSE: CLOSED
+
+PACKAGE NAME: ids-users-www-data
+PACKAGE VERSION: acos-rtu-8.11.0.2-113462
+RECIPE NAME: ids-users
+LICENSE: CLOSED
+
+PACKAGE NAME: io-bus-server
+PACKAGE VERSION: acos-rtu-8.11.0.2-113468
+RECIPE NAME: io-bus-server
+LICENSE: CLOSED
+
+PACKAGE NAME: iproute2
+PACKAGE VERSION: 5.5.0
+RECIPE NAME: iproute2
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-ah
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-dnat
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-dnpt
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-dst
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-eui64
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-frag
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-hbh
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-hl
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-icmp6
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-ipv6header
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-log
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-masquerade
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-mh
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-netmap
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-redirect
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-reject
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-rt
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-snat
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-snpt
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ip6t-srh
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-ah
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-clusterip
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-dnat
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-ecn
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-icmp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-log
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-masquerade
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-netmap
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-realm
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-redirect
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-reject
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-snat
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-ttl
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-ipt-ulog
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-addrtype
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-audit
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-bpf
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-cgroup
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-checksum
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-classify
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-cluster
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-comment
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-connbytes
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-connlimit
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-connmark
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-connsecmark
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-conntrack
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-cpu
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-ct
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-dccp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-devgroup
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-dscp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-ecn
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-esp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-hashlimit
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-helper
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-hmark
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-idletimer
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-ipcomp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-iprange
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-ipvs
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-led
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-length
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-limit
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-mac
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-mark
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-multiport
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-nfacct
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-nflog
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-nfqueue
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-osf
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-owner
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-physdev
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-pkttype
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-policy
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-quota
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-rateest
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-recent
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-rpfilter
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-sctp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-secmark
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-set
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-socket
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-standard
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-statistic
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-string
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-synproxy
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tcp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tcpmss
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tcpoptstrip
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tee
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-time
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tos
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-tproxy
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-trace
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-u32
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-module-xt-udp
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables-modules
+PACKAGE VERSION: 1.8.4
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: jq
+PACKAGE VERSION: 1.6
+RECIPE NAME: jq
+LICENSE: MIT
+
+PACKAGE NAME: json4lua
+PACKAGE VERSION: 1.0+gitAUTOINC+40fb13b0ec
+RECIPE NAME: json4lua
+LICENSE: MIT
+
+PACKAGE NAME: kernel-base
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-devicetree
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-image
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-image-zimage
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-br-netfilter-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-imx-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-msm-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-pci-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-tegra-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ci-hdrc-usb2-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-configfs-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-crc-itu-t-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-crc7-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-fsl-mph-dr-of-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-fsl-usb2-udc-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-g-cdc-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-g-ether-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-libcomposite-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-libcrc32c-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-msdos-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-oprofile-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-phy-generic-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-roles-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-u-ether-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-u-serial-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-udc-core-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-ulpi-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usb-f-acm-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usb-f-ecm-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usb-f-ecm-subset-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usb-f-fs-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usb-f-rndis-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-module-usbmisc-imx-5.10.103-20220308-1
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kernel-modules
+PACKAGE VERSION: 5.10
+RECIPE NAME: linux-vivavis
+LICENSE: GPLv2
+
+PACKAGE NAME: kmod
+PACKAGE VERSION: 26
+RECIPE NAME: kmod
+LICENSE: GPL-2.0+ & LGPL-2.1+
+
+PACKAGE NAME: ldconfig
+PACKAGE VERSION: 2.31+gitAUTOINC+f84949f1c4
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libatomic
+PACKAGE VERSION: 9.3.0
+RECIPE NAME: gcc-runtime
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libattr
+PACKAGE VERSION: 2.4.48
+RECIPE NAME: attr
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: libbz2
+PACKAGE VERSION: 1.0.8
+RECIPE NAME: bzip2
+LICENSE: bzip2-1.0.6
+
+PACKAGE NAME: libcanopen
+PACKAGE VERSION: 2.7.1-acos-rtu-8.11.0.2-113455
+RECIPE NAME: libcanopen
+LICENSE: CLOSED
+
+PACKAGE NAME: libcap
+PACKAGE VERSION: 2.32
+RECIPE NAME: libcap
+LICENSE: BSD | GPLv2
+
+PACKAGE NAME: libcomerr
+PACKAGE VERSION: 1.45.4
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libcpp-ids-utils
+PACKAGE VERSION: acos-rtu-8.11.0.2-113470
+RECIPE NAME: libcpp-ids-utils
+LICENSE: CLOSED
+
+PACKAGE NAME: libcrypto
+PACKAGE VERSION: 1.1.1k
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: libcurl
+PACKAGE VERSION: 7.69.1
+RECIPE NAME: curl
+LICENSE: MIT
+
+PACKAGE NAME: libe2p
+PACKAGE VERSION: 1.45.4
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libedit
+PACKAGE VERSION: 20191231-3.1
+RECIPE NAME: libedit
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: libelf
+PACKAGE VERSION: 0.178
+RECIPE NAME: elfutils
+LICENSE: GPLv2 | LGPLv3+
+
+PACKAGE NAME: libestr
+PACKAGE VERSION: 0.1.11
+RECIPE NAME: libestr
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libext2fs
+PACKAGE VERSION: 1.45.4
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libfastjson
+PACKAGE VERSION: 0.99.8
+RECIPE NAME: libfastjson
+LICENSE: MIT
+
+PACKAGE NAME: libffi
+PACKAGE VERSION: 3.3
+RECIPE NAME: libffi
+LICENSE: MIT
+
+PACKAGE NAME: libgcc
+PACKAGE VERSION: 9.3.0
+RECIPE NAME: libgcc
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libkmod
+PACKAGE VERSION: 26
+RECIPE NAME: kmod
+LICENSE: LGPL-2.1+
+
+PACKAGE NAME: liblua-fileutils
+PACKAGE VERSION: acos-rtu-8.11.0.2-113459
+RECIPE NAME: liblua-fileutils
+LICENSE: CLOSED
+
+PACKAGE NAME: liblzma
+PACKAGE VERSION: 5.2.4
+RECIPE NAME: xz
+LICENSE: PD
+
+PACKAGE NAME: libmnl
+PACKAGE VERSION: 1.0.4
+RECIPE NAME: libmnl
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: libmosquitto1
+PACKAGE VERSION: 1.6.10
+RECIPE NAME: mosquitto
+LICENSE: EPL-1.0 | EDL-1.0
+
+PACKAGE NAME: libnl
+PACKAGE VERSION: 3.5.0
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libnl-genl
+PACKAGE VERSION: 3.5.0
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libpcap
+PACKAGE VERSION: 1.9.1
+RECIPE NAME: libpcap
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: libpci
+PACKAGE VERSION: 3.6.4
+RECIPE NAME: pciutils
+LICENSE: GPLv2+
+
+PACKAGE NAME: libpcre
+PACKAGE VERSION: 8.44
+RECIPE NAME: libpcre
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: libruby-esd
+PACKAGE VERSION: acos-rtu-8.11.0.2-113460
+RECIPE NAME: libruby-esd
+LICENSE: CLOSED
+
+PACKAGE NAME: libruby-ids-core
+PACKAGE VERSION: acos-rtu-8.11.0.2-113460
+RECIPE NAME: libruby-ids-core
+LICENSE: CLOSED
+
+PACKAGE NAME: libruby-remote-pio
+PACKAGE VERSION: acos-rtu-8.11.0.2-113460
+RECIPE NAME: libruby-remote-pio
+LICENSE: CLOSED
+
+PACKAGE NAME: libruby-remote-transport
+PACKAGE VERSION: acos-rtu-8.11.0.2-113460
+RECIPE NAME: libruby-remote-transport
+LICENSE: CLOSED
+
+PACKAGE NAME: libruby-xconfig
+PACKAGE VERSION: acos-rtu-8.11.0.2-113460
+RECIPE NAME: libruby-xconfig
+LICENSE: CLOSED
+
+PACKAGE NAME: libssl
+PACKAGE VERSION: 1.1.1k
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: libstdc++
+PACKAGE VERSION: 9.3.0
+RECIPE NAME: gcc-runtime
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libsystemd
+PACKAGE VERSION: 244.5
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libudev
+PACKAGE VERSION: 244.5
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libusb1
+PACKAGE VERSION: 1.0.22
+RECIPE NAME: libusb1
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: libuv
+PACKAGE VERSION: 1.36.0
+RECIPE NAME: libuv
+LICENSE: MIT
+
+PACKAGE NAME: libwebsockets
+PACKAGE VERSION: 4.0.1
+RECIPE NAME: libwebsockets
+LICENSE: MIT & Zlib & BSD-3-Clause
+
+PACKAGE NAME: libwrap
+PACKAGE VERSION: 7.6
+RECIPE NAME: tcp-wrappers
+LICENSE: BSD-1-Clause
+
+PACKAGE NAME: libxcrypt
+PACKAGE VERSION: 4.4.15
+RECIPE NAME: libxcrypt
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libyaml
+PACKAGE VERSION: 0.2.2
+RECIPE NAME: libyaml
+LICENSE: MIT
+
+PACKAGE NAME: lighttpd
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-access
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-accesslog
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-auth
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-authn-file
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-cgi
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-dirlisting
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-expire
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-indexfile
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-openssl
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-setenv
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-staticfile
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-webdav
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: lighttpd-module-wstunnel
+PACKAGE VERSION: 1.4.55
+RECIPE NAME: lighttpd
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: listen
+PACKAGE VERSION: 3.1.5
+RECIPE NAME: listen
+LICENSE: MIT
+
+PACKAGE NAME: log4cpp
+PACKAGE VERSION: 1.1.3
+RECIPE NAME: log4cpp
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: log4r
+PACKAGE VERSION: 1.1.11
+RECIPE NAME: log4r
+LICENSE: BSD
+
+PACKAGE NAME: logrotate
+PACKAGE VERSION: 3.15.1
+RECIPE NAME: logrotate
+LICENSE: GPLv2
+
+PACKAGE NAME: lsyslog
+PACKAGE VERSION: 1.0+gitAUTOINC+f25c640209
+RECIPE NAME: lsyslog
+LICENSE: PD
+
+PACKAGE NAME: lua
+PACKAGE VERSION: 5.3.6
+RECIPE NAME: lua
+LICENSE: MIT
+
+PACKAGE NAME: lua-cjson
+PACKAGE VERSION: 1.0+gitAUTOINC+e8972ac754
+RECIPE NAME: lua-cjson
+LICENSE: MIT
+
+PACKAGE NAME: lua-periphery
+PACKAGE VERSION: 2.0.1+gitAUTOINC+d7df4d759c
+RECIPE NAME: lua-periphery
+LICENSE: MIT
+
+PACKAGE NAME: lua-zlib
+PACKAGE VERSION: 1.2
+RECIPE NAME: lua-zlib
+LICENSE: MIT
+
+PACKAGE NAME: luafilesystem
+PACKAGE VERSION: 1.6.3+gitAUTOINC+8014725009
+RECIPE NAME: luafilesystem
+LICENSE: MIT
+
+PACKAGE NAME: lualogging
+PACKAGE VERSION: 1.3.0+gitAUTOINC+c851301204
+RECIPE NAME: lualogging
+LICENSE: MIT
+
+PACKAGE NAME: luapbintf
+PACKAGE VERSION: 1.0+gitAUTOINC+0e608d5397
+RECIPE NAME: luapbintf
+LICENSE: MIT
+
+PACKAGE NAME: luasocket
+PACKAGE VERSION: 1.0
+RECIPE NAME: luasocket
+LICENSE: MIT
+
+PACKAGE NAME: lz4
+PACKAGE VERSION: 1.9.2
+RECIPE NAME: lz4
+LICENSE: BSD | BSD-2-Clause | GPL-2.0
+
+PACKAGE NAME: lzo
+PACKAGE VERSION: 2.10
+RECIPE NAME: lzo
+LICENSE: GPLv2+
+
+PACKAGE NAME: macaddr
+PACKAGE VERSION: 1.7.2
+RECIPE NAME: macaddr
+LICENSE: BSD-2-Clause
+
+PACKAGE NAME: microchip-gpio
+PACKAGE VERSION: 0.0.2
+RECIPE NAME: microchip-gpio
+LICENSE: CLOSED
+
+PACKAGE NAME: mosquitto
+PACKAGE VERSION: 1.6.10
+RECIPE NAME: mosquitto
+LICENSE: EPL-1.0 | EDL-1.0
+
+PACKAGE NAME: mosquitto-clients
+PACKAGE VERSION: 1.6.10
+RECIPE NAME: mosquitto
+LICENSE: EPL-1.0 | EDL-1.0
+
+PACKAGE NAME: mqtt
+PACKAGE VERSION: 0.5.0
+RECIPE NAME: mqtt
+LICENSE: MIT
+
+PACKAGE NAME: mtd-utils
+PACKAGE VERSION: 2.1.1
+RECIPE NAME: mtd-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: mtd-utils-ubifs
+PACKAGE VERSION: 2.1.1
+RECIPE NAME: mtd-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: ncurses-libncurses
+PACKAGE VERSION: 6.2
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libtinfo
+PACKAGE VERSION: 6.2
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-terminfo-base
+PACKAGE VERSION: 6.2
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: net-snmp-lib-agent
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-lib-mibs
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-lib-netsnmp
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-lib-trapd
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-server
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-server-snmpd
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-snmp-server-snmptrapd
+PACKAGE VERSION: 5.8
+RECIPE NAME: net-snmp
+LICENSE: BSD & MIT
+
+PACKAGE NAME: net-tools
+PACKAGE VERSION: 1.60-26
+RECIPE NAME: net-tools
+LICENSE: GPLv2+
+
+PACKAGE NAME: netbase
+PACKAGE VERSION: 6.1
+RECIPE NAME: netbase
+LICENSE: GPLv2
+
+PACKAGE NAME: ntp
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntp-tickadj
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntp-utils
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntpdate
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntpdc
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntpq
+PACKAGE VERSION: 4.2.8p15
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: onig
+PACKAGE VERSION: 6.9.4
+RECIPE NAME: onig
+LICENSE: BSD-2-Clause
+
+PACKAGE NAME: openssh
+PACKAGE VERSION: 8.2p1
+RECIPE NAME: openssh
+LICENSE: BSD & ISC & MIT
+
+PACKAGE NAME: openssh-keygen
+PACKAGE VERSION: 8.2p1
+RECIPE NAME: openssh
+LICENSE: BSD & ISC & MIT
+
+PACKAGE NAME: openssh-scp
+PACKAGE VERSION: 8.2p1
+RECIPE NAME: openssh
+LICENSE: BSD & ISC & MIT
+
+PACKAGE NAME: openssh-ssh
+PACKAGE VERSION: 8.2p1
+RECIPE NAME: openssh
+LICENSE: BSD & ISC & MIT
+
+PACKAGE NAME: openssh-sshd
+PACKAGE VERSION: 8.2p1
+RECIPE NAME: openssh
+LICENSE: BSD & ISC & MIT
+
+PACKAGE NAME: openssl
+PACKAGE VERSION: 1.1.1k
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: openssl-bin
+PACKAGE VERSION: 1.1.1k
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: openssl-conf
+PACKAGE VERSION: 1.1.1k
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: openvpn
+PACKAGE VERSION: 2.4.9
+RECIPE NAME: openvpn
+LICENSE: GPLv2
+
+PACKAGE NAME: os-release
+PACKAGE VERSION: 1.0
+RECIPE NAME: os-release
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-acos-rtu
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-acos-rtu
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base-extended
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base-ids
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base-ids
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base-ipv6
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base-usbgadget
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-base-usbhost
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-boot
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-boot
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-ids
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-ids
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-ssh-openssh
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-ssh-openssh
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-distro-base
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-machine-base
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-base
+LICENSE: MIT
+
+PACKAGE NAME: picocom
+PACKAGE VERSION: 3.1+gitAUTOINC+90385aabe2
+RECIPE NAME: picocom
+LICENSE: GPLv2+
+
+PACKAGE NAME: platform-init
+PACKAGE VERSION: 1.0
+RECIPE NAME: platform-init
+LICENSE: CLOSED
+
+PACKAGE NAME: popt
+PACKAGE VERSION: 1.16
+RECIPE NAME: popt
+LICENSE: MIT
+
+PACKAGE NAME: ppp
+PACKAGE VERSION: 2.4.7
+RECIPE NAME: ppp
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+
+PACKAGE NAME: procps
+PACKAGE VERSION: 3.3.16
+RECIPE NAME: procps
+LICENSE: GPLv2+ & LGPLv2+
+
+PACKAGE NAME: protobuf
+PACKAGE VERSION: 3.11.4
+RECIPE NAME: protobuf
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: pure-lua-sha
+PACKAGE VERSION: 1.0
+RECIPE NAME: pure-lua-sha
+LICENSE: MIT
+
+PACKAGE NAME: rauc
+PACKAGE VERSION: 1.5.1
+RECIPE NAME: rauc
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: rauc-mark-good
+PACKAGE VERSION: 1.5.1
+RECIPE NAME: rauc
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: rb-fsevent
+PACKAGE VERSION: 0.10.3
+RECIPE NAME: rb-fsevent
+LICENSE: MIT
+
+PACKAGE NAME: rb-inotify
+PACKAGE VERSION: 0.10.0
+RECIPE NAME: rb-inotify
+LICENSE: MIT
+
+PACKAGE NAME: readline
+PACKAGE VERSION: 8.0
+RECIPE NAME: readline
+LICENSE: GPLv3+
+
+PACKAGE NAME: remote-pio-protobuf
+PACKAGE VERSION: acos-rtu-8.11.0.2-7168
+RECIPE NAME: remote-pio-protobuf
+LICENSE: CLOSED
+
+PACKAGE NAME: rsyslog
+PACKAGE VERSION: 8.2002.0
+RECIPE NAME: rsyslog
+LICENSE: GPLv3 & LGPLv3 & Apache-2.0
+
+PACKAGE NAME: rsyslog-ids-conf
+PACKAGE VERSION: 1.0
+RECIPE NAME: rsyslog-ids-conf
+LICENSE: CLOSED
+
+PACKAGE NAME: ruby
+PACKAGE VERSION: 2.7.3
+RECIPE NAME: ruby
+LICENSE: Ruby | BSD-2-Clause | BSD-3-Clause | GPLv2 | ISC | MIT
+
+PACKAGE NAME: ruby-dep
+PACKAGE VERSION: 1.5.0
+RECIPE NAME: ruby-dep
+LICENSE: MIT
+
+PACKAGE NAME: ruby-pcap
+PACKAGE VERSION: 0.7.9
+RECIPE NAME: ruby-pcap
+LICENSE: GPLv2
+
+PACKAGE NAME: ruby-smclib
+PACKAGE VERSION: 6.6.3
+RECIPE NAME: ruby-smclib
+LICENSE: MPL-1.1
+
+PACKAGE NAME: rubyserial
+PACKAGE VERSION: 0.6.0
+RECIPE NAME: rubyserial
+LICENSE: Apache-2.0
+
+PACKAGE NAME: run-postinsts
+PACKAGE VERSION: 1.0
+RECIPE NAME: run-postinsts
+LICENSE: MIT
+
+PACKAGE NAME: rxtx
+PACKAGE VERSION: 2.2.0
+RECIPE NAME: rxtx
+LICENSE: RXTXv2.1
+
+PACKAGE NAME: script-backend
+PACKAGE VERSION: acos-rtu-8.11.0.2-113463
+RECIPE NAME: script-backend
+LICENSE: CLOSED
+
+PACKAGE NAME: settime
+PACKAGE VERSION: acos-rtu-8.11.0.2-113467
+RECIPE NAME: settime
+LICENSE: CLOSED
+
+PACKAGE NAME: shadow
+PACKAGE VERSION: 4.8.1
+RECIPE NAME: shadow
+LICENSE: BSD | Artistic-1.0
+
+PACKAGE NAME: shadow-base
+PACKAGE VERSION: 4.8.1
+RECIPE NAME: shadow
+LICENSE: BSD | Artistic-1.0
+
+PACKAGE NAME: shadow-securetty
+PACKAGE VERSION: 4.6
+RECIPE NAME: shadow-securetty
+LICENSE: MIT
+
+PACKAGE NAME: socat
+PACKAGE VERSION: 1.7.3.4
+RECIPE NAME: socat
+LICENSE: GPL-2.0-with-OpenSSL-exception
+
+PACKAGE NAME: spitools
+PACKAGE VERSION: 0.8.4
+RECIPE NAME: spitools
+LICENSE: GPLv2
+
+PACKAGE NAME: squashfs-tools
+PACKAGE VERSION: 4.4
+RECIPE NAME: squashfs-tools
+LICENSE: GPL-2
+
+PACKAGE NAME: strace
+PACKAGE VERSION: 5.5
+RECIPE NAME: strace
+LICENSE: LGPL-2.1+ & GPL-2+
+
+PACKAGE NAME: strongswan
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-aes
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-attr
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-cmac
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-constraints
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-curl
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-curve25519
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-des
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-dnskey
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-hmac
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-kernel-netlink
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-md5
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-nonce
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-openssl
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pem
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pgp
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pkcs1
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pkcs12
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pkcs7
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pkcs8
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-pubkey
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-random
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-rc2
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-resolve
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-revocation
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-sha1
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-sha2
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-socket-default
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-sshkey
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-stroke
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-updown
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-vici
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-x509
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-xauth-generic
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: strongswan-plugin-xcbc
+PACKAGE VERSION: 5.8.4
+RECIPE NAME: strongswan
+LICENSE: GPLv2
+
+PACKAGE NAME: sudo
+PACKAGE VERSION: 1.8.32
+RECIPE NAME: sudo
+LICENSE: ISC & BSD & Zlib
+
+PACKAGE NAME: system-archive-factory
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-archive-factory
+LICENSE: CLOSED
+
+PACKAGE NAME: system-config
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-config
+LICENSE: CLOSED
+
+PACKAGE NAME: system-core
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-core
+LICENSE: CLOSED
+
+PACKAGE NAME: system-diagnostic
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-diagnostic
+LICENSE: CLOSED
+
+PACKAGE NAME: system-firmware-update
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-firmware-update
+LICENSE: CLOSED
+
+PACKAGE NAME: system-init
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-init
+LICENSE: CLOSED
+
+PACKAGE NAME: system-xarchive
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-xarchive
+LICENSE: CLOSED
+
+PACKAGE NAME: system-xconfig
+PACKAGE VERSION: acos-rtu-8.11.0.2-113461
+RECIPE NAME: system-xconfig
+LICENSE: CLOSED
+
+PACKAGE NAME: systemd
+PACKAGE VERSION: 244.5
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: systemd-compat-units
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-compat-units
+LICENSE: MIT
+
+PACKAGE NAME: systemd-conf
+PACKAGE VERSION: 244.3
+RECIPE NAME: systemd-conf
+LICENSE: MIT
+
+PACKAGE NAME: systemd-ids-network-service
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-ids-network-service
+LICENSE: CLOSED
+
+PACKAGE NAME: systemd-serialgetty
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-serialgetty
+LICENSE: GPLv2+
+
+PACKAGE NAME: systemu
+PACKAGE VERSION: 2.6.5
+RECIPE NAME: systemu
+LICENSE: BSD-2-Clause
+
+PACKAGE NAME: tcpdump
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: tcpdump
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: tzdata
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-africa
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-americas
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-antarctica
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-arctic
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-asia
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-atlantic
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-australia
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-core
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-europe
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-misc
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-pacific
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-posix
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: tzdata-right
+PACKAGE VERSION: 2021a
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: udev
+PACKAGE VERSION: 244.5
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: udev-rules-ids
+PACKAGE VERSION: 1.0
+RECIPE NAME: udev-rules-ids
+LICENSE: CLOSED
+
+PACKAGE NAME: udev-rules-tty
+PACKAGE VERSION: 1.0
+RECIPE NAME: udev-rules-tty
+LICENSE: MIT
+
+PACKAGE NAME: unzip
+PACKAGE VERSION: 6.0
+RECIPE NAME: unzip
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: update-alternatives-opkg
+PACKAGE VERSION: 0.4.2
+RECIPE NAME: opkg-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: update-rc.d
+PACKAGE VERSION: 0.8
+RECIPE NAME: update-rc.d
+LICENSE: GPLv2+
+
+PACKAGE NAME: usbutils
+PACKAGE VERSION: 012
+RECIPE NAME: usbutils
+LICENSE: GPLv2+
+
+PACKAGE NAME: util-linux-agetty
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-fsck
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-libblkid
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-libfdisk
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-libmount
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-libuuid
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-mount
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-sulogin
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: util-linux-umount
+PACKAGE VERSION: 2.35.1
+RECIPE NAME: util-linux
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD-3-Clause & BSD-4-Clause
+
+PACKAGE NAME: uuid
+PACKAGE VERSION: 2.3.9
+RECIPE NAME: uuid
+LICENSE: MIT
+
+PACKAGE NAME: vlan
+PACKAGE VERSION: 1.9
+RECIPE NAME: vlan
+LICENSE: GPLv2
+
+PACKAGE NAME: volatile-binds
+PACKAGE VERSION: 1.0
+RECIPE NAME: volatile-binds
+LICENSE: MIT
+
+PACKAGE NAME: web-backend
+PACKAGE VERSION: acos-rtu-8.11.0.2-113466
+RECIPE NAME: web-backend
+LICENSE: CLOSED
+
+PACKAGE NAME: wpa-supplicant
+PACKAGE VERSION: 2.9
+RECIPE NAME: wpa-supplicant
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: wpa-supplicant-cli
+PACKAGE VERSION: 2.9
+RECIPE NAME: wpa-supplicant
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: wpa-supplicant-passphrase
+PACKAGE VERSION: 2.9
+RECIPE NAME: wpa-supplicant
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: xz
+PACKAGE VERSION: 5.2.4
+RECIPE NAME: xz
+LICENSE: GPLv2+
+
+PACKAGE NAME: zip
+PACKAGE VERSION: 3.0
+RECIPE NAME: zip
+LICENSE: BSD-3-Clause
+
+PACKAGE NAME: zipwriter
+PACKAGE VERSION: 0.1.5
+RECIPE NAME: zipwriter
+LICENSE: MIT
+
+PACKAGE NAME: zlib
+PACKAGE VERSION: 1.2.11
+RECIPE NAME: zlib
+LICENSE: Zlib
+
+PACKAGE NAME: zulu-embedded
+PACKAGE VERSION: 11.43.101
+RECIPE NAME: zulu-embedded
+LICENSE: CLOSED
+
